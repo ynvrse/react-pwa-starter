@@ -36,11 +36,10 @@ npm run dev
 - Uncomment on `push`
 
 ```yaml
-# on:
-#   workflow_dispatch:
 on:
     push:
-        branches: ['main']
+         branches: ['main']
+    # workflow_dispatch:
 ```
 
 ## Features
